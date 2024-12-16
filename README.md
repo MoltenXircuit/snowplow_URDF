@@ -2,14 +2,17 @@
 urdf and sick lidar code
 
 Setup:
+
 install Ros 2 Iron, ensure rviz works using
 rviz2
 
 Install robot description:
+
 cd $snowplow_ws  #replace with ws directory
 (put this folder into the ws directory)
 
 Install sick_scan_xd scripts:
+
 cd $snowplow_ws  #replace with ws directory
 pushd src
 git clone https://github.com/SICKAG/sick_scan_xd.git
@@ -22,6 +25,7 @@ sudo ldconfig
 
 
 To run:
+
 cd $snowplow_ws  #replace with ws directory
 source install/setup.bash
 colcon build
