@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<robot name="Snowplow_URDF" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<material name="silver">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+<material name="black">
+  <color rgba="0.100 0.100 0.100 1.000"/>
+</material>
+<material name="dk_green">
+  <color rgba="0.050 0.500 0.090 1.000"/>
+</material>
+
+</robot>
