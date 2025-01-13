@@ -6,6 +6,7 @@ Setup:
 install Ros 2 Iron, ensure rviz works using
 rviz2
 
+
 Install robot description:
 
 cd $snowplow_ws  #replace with ws directory
@@ -14,10 +15,11 @@ cd $snowplow_ws  #replace with ws directory
 Install sick_scan_xd scripts:
 
 cd $snowplow_ws  #replace with ws directory
+
 pushd src
 
-
 git clone https://github.com/SICKAG/sick_scan_xd.git
+
 popd
 
 rosdep update && rosdep install --from-paths src --ignore-src -r -y
