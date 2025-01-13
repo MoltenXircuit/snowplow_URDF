@@ -15,6 +15,8 @@ Install sick_scan_xd scripts:
 
 cd $snowplow_ws  #replace with ws directory
 pushd src
+
+
 git clone https://github.com/SICKAG/sick_scan_xd.git
 popd
 
