@@ -31,6 +31,9 @@ sudo ldconfig
 To run:
 
 cd $snowplow_ws  #replace with ws directory
+
 source install/setup.bash
+
 colcon build
+
 ros2 launch Snowplow_URDF_description display.launch.py
