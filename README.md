@@ -27,6 +27,12 @@ rm -rf ./build ./devel ./install ./build_isolated ./devel_isolated ./install_iso
 colcon build --symlink-install --cmake-args " -DROS_VERSION=2" " -DCMAKE_ENABLE_EMULATOR=0" "-DCMAKE_BUILD_TYPE=Release" --event-handlers console_direct+
 sudo ldconfig
 
+Install extra scripts:
+
+sudo apt-get update
+
+sudo apt install ros-iron-xacro ros-iron-joint-state-publisher-gui
+
 
 To run:
 
@@ -34,6 +40,8 @@ cd $snowplow_ws  #replace with ws directory
 
 source install/setup.bash
 
-colcon build
-
 ros2 launch Snowplow_URDF_description display.launch.py
+
+if a change is made to the files, rebuild:
+
+colcon build
