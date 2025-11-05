@@ -45,3 +45,7 @@ ros2 launch Snowplow_URDF_description display.launch.py
 if a change is made to the files, rebuild:
 
 colcon build
+
+
+This is what it looks like in Gazebo Sim
+<img width="1489" height="951" alt="Snowplow_Gazebo" src="https://github.com/user-attachments/assets/82ce6164-6dd9-49d5-811e-707b129e0afb" />
